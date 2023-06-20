@@ -140,25 +140,21 @@
 
 @media screen and (max-width: 991px) {
   .container-md {
-    max-width: 768px;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .container-sm {
-    max-width: 576px;
-  }
-
   .col-6 > .row > [class*="col-"] {
     font-size: .7rem;
   }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 576px) {
   .container-sm {
-    max-width: 320px;
+    min-width: 320px;
   }
-
+  
   .col-6 > .row > [class*="col-"] {
     font-size: .5rem;
   }
